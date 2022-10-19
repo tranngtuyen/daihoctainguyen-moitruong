@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css
+    " integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js
+    " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js
+    " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js
+    " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <img src="logo-hunre.png">
+           
+                 <!-- <i class="fa-brands fa-facebook"></i>
+                 <i class="fa-solid fa-house"></i>
+                 <i class="fa-brands fa-youtube"></i> -->
+                 <!-- <a class="english">
+                    <img class="coanh" src="./coanh.png" alt="">
+                   ENGLISH  </a>> -->
+            <div class="search">
+               
+                <input type="text" name="Nhập nội dung timg kiếm" placeholder="Nhập nội dung timg kiếm">
+                <button>Tìm Kiếm</button>
+
+            </div>
+            <a class="ytb" href="http://www.youtube.com/hunrenews">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a  class="fc" href="http://www.facebook.com/ten.van.333">
+                <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a  class="hm" href="http://www.facebook.com/ten.van.333">
+
+                <i class="fa-solid fa-house"></i>
+                <span>Trang Chu</span>
+            </a>
+               
+                <a id="english" href="http://www.facebook.com/ten.van.333"> 
+                    <img class="el" src="./coanh.png" alt="">
+                   <span>ENGLISH </span>
+
+                 
+        </div>
+        <nav class="menu1">
+            <ul>
+                <br><br>
+                <li><a href="http://127.0.0.1:5500/tintuc.html">Tin Tức</a></li>
+                <li><a href="#">Thông Báo</a></li>
+                <li><a href="#">Sự Kiện</a></li>
+                <li><a href="#">Lịch</a></li>
+                <li><a href="#">Ảnh</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">Liên Hệ</a></li>
+            </ul>
+
+
+        </nav>
+        <div class="menuu">
+            <ul>
+                <li><a href="# ">Giới Thiệu </a>
+                    <ul class="bmenuu">
+
+
+                        <li><a id="aa" href="#">* LIÊN HỆ VỚI CÁC ĐƠN VỊ</a></li><br><br>
+                        <li><a href="#">- Số Điện Thoại</a></li><br>
+                        <li><a href="#">- Trực Tiếp</a></li><br>
+                        <div class="ac">
+                            <li><a id="aa" href="#">* VỀ CHÚNG TÔI</a></li><br>
+                            <li><a href="#">- Thư</a></li>
+                            <li><a href="#">- Cơ Cấu</a></li>
+                            <li><a href="#">- Lịch Sử-Phát Triển</a></li>
+                            <li><a href="#">- Sứ Mệnh</a></li>
+                            <li><a href="#">- Y Nghĩa Logo</a></li>
+
+
+                        </div>
+                    </ul>
+                </li>
+
+                <li><a href="# ">Đơn Vị Trực Thuộc </a>
+                    <ul class="bmenuu bmenuu2">
+                        <li><a id="aa" href="#"> * CAC KHOA VA BO MOM</a></li><br><br>
+
+                        <li><a href="#"> - Khoa Môi trường</a></li><br>
+                        <li><a href="#"> - Khoa Kinh tế TN&MT</a></li><br>
+                        <li><a href="#"> - Khoa Quản lý đất đai</a></li><br>
+                        <li><a href="#"> - Khoa Khí tượng thủy văn</a></li><br>
+                        <li><a href="#"> - Khoa Trắc địa bản đồ và Thông tin địa lý</a></li><br>
+                        <li><a href="#"> - Khoa Địa chất</a></li><br>
+                        <li><a href="#"> - Khoa Tài nguyên nước</a></li><br>
+                        <li><a href="#">- Khoa Công nghệ thông tin</a></li><br>
+
+                        <li><a href="#"></a></li><br>
+                        <div class="ab">
+                            <li><a id="aa" href="#">* PHONG CHUC NANG</a></li><br>
+                            <li><a href="#"> - Ban Truyền thông và tư vấn tuyển sinh</a></li>
+                            <li><a href="#">- Phòng Công tác học sinh sinh viên</a></li>
+                            <li><a href="#">- Phòng Đào tạo</a></li>
+                            <li><a href="#">- Phòng Tổ chức - Hành chính</a></li>
+                            <li><a href="#">- Phòng Khảo thí và đảm bảo chất lượng GD</a></li>
+                        </div>
+                    </ul>
+
+
+                </li>
+                <li><a href="# ">Hợp Tác</a>
+                <ul class="bmenuu bmenuu2 bmenuu3"></ul></li>
+                <!-- <li><a id="aa" href="#"> * CAC KHOA VA BO MOM</a></li><br><br> -->
+                <li><a href="# ">Thông Tin Dao Tao </a>
+                    <ul class="bmenuu bmenuu4" ></ul></li>
+                <li><a href="# ">Bieu Mau Sinh Vien </a></li>
+
+            </ul>
+
+
+        </div>
+    </header>
+   <main>
+    <div class="main1" id="contro">
+    <div class="main2">
+
+
+
+<div class="main3_a" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1700px ;height: 546px;">
+        <div class="slide">
+            <menu class="menu">
+                <div id="slideshow">
+                    <div class="slide-wrapper">
+                        <div class="slide"><img src="Untitled-cr-522x422.png"></div>
+                        <div class="slide"><img src="1_-cr-522x422.png"></div>
+                        <div class="slide"><img src="hd-cr-522x422.png"></div>
+                    </div>
+                </menu> 
+            <!-- </menu> -->
+             <div class="slidea">    
+                <h2><a href="#">Trung Dai Hoc Tai Nguyen Va Moi Truong Thong Bao</a></h2>
+                <div class="text">
+                    "Trung Dai Hoc THong Bao Xet Tuyen theo phuong thuc hpc ba va thi thpt
+                    "
+
+                </div>
+            </div>
+       
+        </div>
+
+        <div class="slide a">
+            <div class="slidea1">
+                <div class="slidea1_1">
+                    <a href="#">
+                    <h2 class="slidea1_2">Tin Moi Nhat</h2>
+<img class="block" src="images-cr-425x200.png" alt="Tin Moi Nhat">
+</a>
+                </div>
+                <div class="slidea1a_1">
+                  
+                  
+                    <li><a href="#">Thong Bao Ve Cung Cap Thong Tin Hinh Anh Moi Nhat</a></li>
+                    <li><a href="#">Thong Tin Ve Sinh Vien Danh Nhau</a></li>
+                    <li><a href="#">Thong Bao Trien Khai Ke Hoach Cho Nam Hoc Moi </a></li>
+
+
+                </div>
+                
+               <a class="xemthem" href="#">+ Xem thêm</a>
+             
+            </div>
+            <div class="slidea2">
+                 <div class="slidea2_1">
+                    <a href="#">
+                        <h2 class="slidea1_2">Hoi Thao KHCN 2022</h2>
+    <img class="block" src="download (1)-cr-425x200.jpg" alt="Hoi Thao KHCN 2022">
+    </a>
+                    </div>
+                    <div class="slidea2_1 slidea2_2">
+                  
+                  
+                        <li><a href="#">Thong Bao Ve Cung Cap Thong Tin Hinh Anh Moi Nhat</a></li>
+                        <li><a href="#">Thong Tin Ve Sinh Vien Danh Nhau</a></li>
+                        <li><a href="#">Thong Bao Trien Khai Ke Hoach Cho Nam Hoc Moi </a></li>
+    
+    
+                    </div>
+                    <a class="xemthem a" href="#">+ Xem thêm</a>
+                 </div>
+            </div>
+        
+        <div class="slide a">
+            <div class="slidea1">
+                <div class="slidea1_1">
+                    <a href="#">
+                    <h2 class="slidea1_2">Nganh Dao Tao</h2>
+<img class="block" src="business-charts-15653501729972115166047-cr-425x200.jpg" alt="Nganh Dao Tao">
+</a>
+                </div>
+                <div class="slidea1a_1">
+                  
+                  
+                    <li><a href="#">Gioi Thieu Ve Ngnah Cong Nghe Thong Tin</a></li>
+                    <li><a href="#">Gioi Thieu Ve Nganh Marketing</a></li>
+                    <li><a href="#">Gioi Thieu Ve Nganh Quan Li Dat Dai</a></li>
+                    <li><a href="#">Nganh Tai Ching Ke Toan-Kiem Toan</a></li>
+                    <li><a href="#">Nganh Logistic Chuoi Cung Ung</a></li>
+                    <li><a href="#">Nganh Quan Tri Kinh Doanh</a></li>
+
+
+                </div>
+                
+               <a class="xemthem" href="#">+ Xem thêm</a>
+            
+            </div>
+            <div class="slidea2">
+                 <div class="slidea2_1">
+                    <a href="#">
+                        <h2 class="slidea1_2">Tuyen Sinh Dai Hoc</h2>
+    <img class="block" src="z2163516397261_aae83c77bc4964c33630d70812a3ddf0-cr-425x200.jpg" alt="Tuyen Sinh Dai Hoc">
+    </a>
+                    </div>
+                    <div class="slidea2_1 slidea2_2">
+                  
+                  
+                        <li><a href="#">Thong Bao Ve Cung Cap Thong Tin Hinh Anh Moi Nhat</a></li>
+                        <li><a href="#">Thong Tin Ve Sinh Vien Danh Nhau</a></li>
+                        <li><a href="#">Thong Bao Trien Khai Ke Hoach Cho Nam Hoc Moi </a></li>
+    
+    
+                    </div>
+                    
+                    <a class="xemthem a" href="#">+ Xem thêm</a>
+                 </div>
+            </div> 
+           
+             <div class="slide a">
+                <div class="slidea1">
+                    <div class="slidea1_1">
+                        <a href="#">
+                        <h2 class="slidea1_2">Tieu Diem</h2>
+    <img class="block" src="hot-news_23-2147512787-cr-425x200.jpg" alt="Tieu Diem">
+    </a>
+                    </div>
+                    <div class="slidea1a_1">
+                      
+                      
+                        <li><a href="#">Thong Bao Ve Cung Cap Thong Tin Hinh Anh Moi Nhat</a></li>
+                        <li><a href="#">Thong Tin Ve Sinh Vien Danh Nhau</a></li>
+                        <li><a href="#">Thong Bao Trien Khai Ke Hoach Cho Nam Hoc Moi </a></li>
+    
+    
+                    </div>
+                    
+                   <a class="xemthem" href="#">+ Xem thêm</a>
+                 
+                </div>
+        
+        <div class="slidea2">
+            <div class="slidea2_1">
+               <a href="#">
+                   <h2 class="slidea1_2">Khoa Cong Nghe Thong Tin</h2>
+<img class="block" src="11111-cr-425x200.jpg" alt="Khoa Cong Nghe Thong Tin">
+</a>
+               </div>
+               <div class="slidea2_1 slidea2_2">
+             
+             
+                   <li><a href="#">Thong Bao Ve Cung Cap Thong Tin Hinh Anh Moi Nhat</a></li>
+                   <li><a href="#">Thong Tin Ve Sinh Vien Danh Nhau</a></li>
+                   <li><a href="#">Thong Bao Trien Khai Ke Hoach Cho Nam Hoc Moi </a></li>
+
+
+               </div>
+               
+               <a class="xemthem a" href="#">+ Xem thêm</a>
+            </div>
+        </div>
+
+        
+
+
+        <div class="slide a aa">
+           
+                <div class="slidea1_1">
+                    <a href="#">
+                    <h2 class="slidea1_2">Su Kien</h2>
+<img class="block" src="hot-news_23-2147512787-cr-425x200.jpg" alt="Su Kien">
+</a>
+                </div>
+                <div class="slidea1a_1 b">
+                  
+                  
+                    <li><a href="#">Thong Bao Ve Cung Cap Thong Tin Hinh Anh Moi Nhat</a></li>
+                    <li><a href="#">Thong Tin Ve Sinh Vien Danh Nhau</a></li>
+                    <li><a href="#">Thong Bao Trien Khai Ke Hoach Cho Nam Hoc Moi </a></li>
+
+
+                </div>
+                
+               <a class="xemthem a aa" href="#">+ Xem thêm</a>
+             
+            </div>
+        <!-- </div> -->
+
+   
+
+        <div class="slide a">
+            <div class="slidea1">
+                <div class="slidea1_1">
+                    <a href="#">
+                    <h2 class="slidea1_2">Tieu Diem</h2>
+<img class="block" src="hot-news_23-2147512787-cr-425x200.jpg" alt="Tieu Diem">
+</a>
+                </div>
+                <div class="slidea1a_1">
+                  
+                  
+                    <li><a href="#">Thong Bao Ve Cung Cap Thong Tin Hinh Anh Moi Nhat</a></li>
+                    <li><a href="#">Thong Tin Ve Sinh Vien Danh Nhau</a></li>
+                    <li><a href="#">Thong Bao Trien Khai Ke Hoach Cho Nam Hoc Moi </a></li>
+
+
+                </div>
+                
+               <a class="xemthem" href="#">+ Xem thêm</a>
+             
+            </div>
+    
+    <div class="slidea2">
+        <div class="slidea2_1">
+           <a href="#">
+               <h2 class="slidea1_2">Khoa Cong Nghe Thong Tin</h2>
+<img class="block" src="11111-cr-425x200.jpg" alt="Khoa Cong Nghe Thong Tin">
+</a>
+           </div>
+           <div class="slidea2_1 slidea2_2">
+         
+         
+               <li><a href="#">Thong Bao Ve Cung Cap Thong Tin Hinh Anh Moi Nhat</a></li>
+               <li><a href="#">Thong Tin Ve Sinh Vien Danh Nhau</a></li>
+               <li><a href="#">Thong Bao Trien Khai Ke Hoach Cho Nam Hoc Moi </a></li>
+
+
+           </div>
+           
+           <a class="xemthem a" href="#">+ Xem thêm</a>
+        </div>
+    </div>
+
+    <div class="slide a">
+        <div class="slidea1">
+            <div class="slidea1_1">
+                <a href="#">
+                <h2 class="slidea1_2">Tieu Diem</h2>
+<img class="block" src="hot-news_23-2147512787-cr-425x200.jpg" alt="Tieu Diem">
+</a>
+            </div>
+            <div class="slidea1a_1">
+              
+              
+                <li><a href="#">Thong Bao Ve Cung Cap Thong Tin Hinh Anh Moi Nhat</a></li>
+                <li><a href="#">Thong Tin Ve Sinh Vien Danh Nhau</a></li>
+                <li><a href="#">Thong Bao Trien Khai Ke Hoach Cho Nam Hoc Moi </a></li>
+
+
+            </div>
+            
+           <a class="xemthem" href="#">+ Xem thêm</a>
+         
+        </div>
+
+<div class="slidea2">
+    <div class="slidea2_1">
+       <a href="#">
+           <h2 class="slidea1_2">Khoa Cong Nghe Thong Tin</h2>
+<img class="block" src="11111-cr-425x200.jpg" alt="Khoa Cong Nghe Thong Tin">
+</a>
+       </div>
+       <div class="slidea2_1 slidea2_2">
+     
+     
+           <li><a href="#">Thong Bao Ve Cung Cap Thong Tin Hinh Anh Moi Nhat</a></li>
+           <li><a href="#">Thong Tin Ve Sinh Vien Danh Nhau</a></li>
+           <li><a href="#">Thong Bao Trien Khai Ke Hoach Cho Nam Hoc Moi </a></li>
+
+
+       </div>
+       
+       <a class="xemthem a" href="#">+ Xem thêm</a>
+    </div>
+</div>
+</div>
+       
+    </div>
+
+
+     <div class="main-content">
+        <div class="a-theme">
+            <div class="a-controls">
+<div class="allscroll">
+    <div class="scroll">
+        <i class="im im-angle-left"></i>
+    </div>
+   
+    <div class="scrollnext">
+        <i class="in im-angle-left"></i>
+    </div>
+
+</div>
+</div>
+</div>
+    </div>
+  
+    </div> 
+        
+    
+
+   
+    </div>
+    <div class="slideb" >
+        <div class="slideba">
+            <a href="http://www.youtube.com" class="slideba1">
+                <img class="anh1" src="app-youtube_1-cr-149x67.png">
+                
+            </a>
+            <a href="http://www.youtube.com" class="slideba1">
+                <img class="anh2" src="2(9)-cr-149x67.jpg">
+                
+            </a>
+            <a href="http://facebook.com/ten.van.333" class="slideba1">
+                <img class="anh2" src="facebook-icon-cr-149x67.png">
+                
+            </a>
+            <a href="http://www.youtube.com" class="slideba1">
+                <img class="anh2" src="2(9)-cr-149x67.jpg">
+                
+            </a>
+            <a href="http://www.youtube.com" class="slideba1">
+                <img class="anh2" src="2(9)-cr-149x67.jpg">
+                
+            </a>
+            <a href="http://www.youtube.com" class="slideba1">
+                <img class="anh2" src="2(9)-cr-149x67.jpg">
+                
+            </a>
+        </div>
+        
+    </div>
+
+   
+
+</main>
+<div class="end">
+    <div class="end1">
+        <div class="end1a">
+            <p  class="end1ab">Đại Học Tài Nguyên Và Môi Trường</Strong>
+            <br>
+            Địa Chỉ:41A Phú Diễn Bắc Từ  Liêm Hà Nội
+            <br>
+Điện Thoại:0334553164 | Emai:<a href="trantuyen10082002@gmail.com">tranruyen10082002@gmail.com</a>
+<br>
+@2002 Truong Dai Hoc Tai Nguyen Va Moi Truong
+        </p>
+    <p>
+        <div class="end2ab">
+            <div class="end2abc ">
+                <p >
+                    <a href="http://hunre.edu.vn">
+                        <img class="hinh" src="./survey.jpg">
+                    </a>
+                    <a href="https://goo.gl/maps/t5brgPKFc9xDyD1QA">
+                        <img class="hinh" src="./googlemap.png">
+                    </a>
+            </p>
+            </div>
+        </div>
+    </div>
+   
+  
+</div>
+
+</html>

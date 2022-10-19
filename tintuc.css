@@ -1,0 +1,8 @@
+body {
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 1000px;
+    clear: both;
+    background:linear-gradient(rgb(224, 243, 225), rgb(216, 90, 197), rgb(0, 238, 255));
+    /* background-image :url(https://hunre.edu.vn/media/data/banner/home-bg4.jpg); */
+}
